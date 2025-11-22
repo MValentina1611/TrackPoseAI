@@ -1,0 +1,3 @@
+## Análisis final de impactos de la solución
+
+En esta tercera entrega la solución evolucionó desde un prototipo de modelado (Entrega 2) hacia un sistema más compacto y desplegable. La reducción de características con RFE permitió pasar de 20 a 10 variables manteniendo prácticamente el mismo desempeño global (F1-macro ≈ 0.79 → 0.78) y tiempos de entrenamiento/inferencia ligeramente menores. Esto hace más viable el uso del modelo en escenarios cercanos al tiempo real, como la evaluación rápida de pacientes en consulta o en entornos de rehabilitación.
